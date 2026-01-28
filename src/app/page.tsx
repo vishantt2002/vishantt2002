@@ -393,7 +393,7 @@ export default function Home() {
     <div {...stylex.props(styles.mainWrapper)}>
       <main {...stylex.props(styles.container)}>
         <header {...stylex.props(styles.header)}>
-          <h1 {...stylex.props(styles.name)}>Nicholas Simpkins</h1>
+          <h1 {...stylex.props(styles.name)}>Vishant Tyagi</h1>
           <h2 {...stylex.props(styles.title)}>
             <div {...stylex.props(styles.expertiseBadges)}>
               <span {...stylex.props(styles.expertiseBadge)}>IT</span>
