@@ -1,10 +1,10 @@
-# Nicholas Simpkins - Professional Portfolio
+# Vishant Thyagi - Professional Portfolio
 
-![GitHub Pages Status](https://github.com/nicksimpkins/nicksimpkins/actions/workflows/deploy.yml/badge.svg)
+![GitHub Pages Status](https://github.com/vishantt2002/vishantt2002/actions/workflows/deploy.yml/badge.svg)
 
 This repository contains the source code for my professional portfolio website built with Next.js and StyleX.
 
-Visit the live site: [nicksimpkins.github.io/nicksimpkins](https://nicksimpkins.github.io/nicksimpkins/)
+Visit the live site: [vishantt2002.github.io/vishantt2002](https://vishantt2002.github.io/vishantt2002/)
 
 ## About Me
 
