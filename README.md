@@ -8,28 +8,16 @@ Visit the live site: [vishantt2002.github.io/vishantt2002](https://vishantt2002.
 
 ## About Me
 
-I'm pursuing a bachelors and masters at Illinois Institute of Technology in Chicago:
-- B.A.C. Information Technology & Management with a Minor in Finance (2021-2025)
-- M.A.S. Information Technology & Management with Specialization in Applied Data Science & Artificial Intelligence (2023-2026)
+I'm an Aerospace Engineer recently graduated from the Illinois Institute of Technology
+- B.S Aerospace Engineering  (2020-2024)
 
 Through various applications I aim to develop and engineer platforms and services to provide simpler and more efficient ways to manage, aggregate and analyze data. Due to my background in the financial field through classes, extra curricular and work experiences I focus on data solutions for financial data.
 
 ## Projects
 
-### Centerspoke
-Open source CLI with tools for file conversion and cloud database interactions.
-- **Technologies**: Python, SQL, AWS (RDS), MySQL
-- [GitHub Repository](https://github.com/visionkernel/centerspoke)
+### Design for Manufacturing  
 
-### VisionKernel
-Time-series data management and analysis platform for the financial industry.
-- **Technologies**: React, Python, SQL, TypeScript, AWS, Google Cloud, Firebase
-- [Website](https://visionkernel.co)
-
-### Evoweb
-An easily containerized web app that generates dynamic web content using client-side LLMs with reference from JSON data
-- **Technologies**: Svelte, JavaScript, LLMs (Phi-2 & Llama-2-7B)
-- [GitHub Repository](https://github.com/nicksimpkins/evoweb)
+3D Modeling simple to semi-complex parts using Solidworks
 
 ## My Go-To's
 
@@ -39,15 +27,12 @@ VS Code
 ### Repositories & CI/CD
 GitHub 
 
-### Web App
-React Framework + Tailwind + Vite + SQLite
-
-### McDonalds Order
-2 Double Cheeseburger + 1 McChicken
+### Chick Fila Order 
+2 Spicy Chicken Sandwiches + Lg Fry + Cookies and Cream Milkshake
 
 ## Contact Information
-- **Email**: nicksimpkins@icloud.com | nsimpkins@hawk.illinoistech.edu
-- **Phone**: (603)-848-6787
+- **Email**: vishantt2002@gmail.com
+- **Phone**: (847) 800-6257
 - **Location**: Chicago, IL
 
 ## Technologies Used in This Site
