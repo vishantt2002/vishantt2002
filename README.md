@@ -1,4 +1,4 @@
-# Vishant Thyagi - Professional Portfolio
+# Vishant Tyagi - Professional Portfolio
 
 ![GitHub Pages Status](https://github.com/vishantt2002/vishantt2002/actions/workflows/deploy.yml/badge.svg)
 
