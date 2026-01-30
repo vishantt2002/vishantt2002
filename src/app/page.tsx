@@ -181,7 +181,7 @@ const styles = stylex.create({
 });
 
 export default function Home() {
-  const languageSkills = [
+  const MechanicalSkills = [
     { name: 'HTML & CSS', level: 5 },
     { name: 'Python', level: 4 },
     { name: 'JavaScript', level: 4 },
@@ -192,73 +192,12 @@ export default function Home() {
     { name: 'Java', level: 3 },
   ];
 
-  const frameworkSkills = [
-    { name: 'React', level: 4 },
-    { name: 'Flask', level: 4 },
-    { name: 'Django', level: 4 },
-    { name: 'NextJS', level: 3 },
-    { name: 'TypeScript', level: 4 },
-    { name: 'Tailwind CSS', level: 4 },
-    { name: 'StyleX', level: 3 },
-    { name: 'Svelte', level: 3 },
-    { name: 'Express', level: 4 },
-    { name: 'jQuery', level: 3 },
-    { name: 'Spark', level: 3 },
-  ];
 
-  const cloudSkills = [
-    { name: 'AWS', level: 3 },
-    { name: 'GCP', level: 4 },
-    { name: 'Firebase', level: 5 },
-    { name: 'Kubernetes', level: 2 },
-    { name: 'Docker', level: 3 },
-    { name: 'Azure', level: 3 },
-  ];
 
-  const databaseSkills = [
-    { name: 'MySQL', level: 5 },
-    { name: 'PostgreSQL', level: 4 },
-    { name: 'MongoDB', level: 3 },
-    { name: 'SQLite', level: 4 },
-    { name: 'Firebase', level: 5 },
-    { name: 'DynamoDB', level: 3 },
-    { name: 'Minio', level: 3 },
-    { name: 'AWS RDS', level: 5 },
-  ];
-
-  const devServiceSkills = [
-    { name: 'GitHub', level: 5 },
-    { name: 'Google Drive', level: 5 },
-    { name: 'Microsoft Office', level: 4 },
-    { name: 'VS Code', level: 5 },
-    { name: 'Slack', level: 5 },
-    { name: 'Trello', level: 4 },
-    { name: 'Basecamp', level: 5 },
-    { name: 'Figma', level: 3 },
-    { name: 'OneDrive', level: 5 },
-    { name: 'PyCharm', level: 4 },
-    { name: 'Postman', level: 3 },
-    { name: 'Eclipse', level: 4 },
-    { name: 'RStudio', level: 4 },
-    { name: 'VirtualBox', level: 5 },
-    { name: 'VMWare', level: 3 },
-    { name: 'Jupyter', level: 5 },
-    { name: 'Terraform', level: 4 },
-    { name: 'Vagrant', level: 4 },
-    { name: 'Vault', level: 3 },
-    { name: 'Wireshark', level: 3 },
-    { name: 'Fiddler', level: 3 },
-    { name: 'Discord', level: 5 },
-    { name: 'WebEx', level: 5 },
-    { name: 'OpenAI ChatGPT', level: 5 },
-    { name: 'Anthropic Claude', level: 5 },
-    { name: 'GitHub Co-Pilot', level: 5 },
-  ];
-
-  const techCourses = [
+  const EngineeringCourses= [
     {
-      name: "Applied AI & Deep Learning",
-      topics: "Game Theory, Deep Learning, Reinforcement Learning, Generative AI, NLP, Neural Networks",
+      name: "Aerodynamics",
+      topics: "Fluid properties and continuum flow assumptions,Inviscid flow theory and potential flow modeling,Lift, drag, and pitching moment generation,Subsonic and transonic aerodynamic characteristics",
       date: "SPRING 2025"
     },
     {
@@ -338,54 +277,6 @@ export default function Home() {
     },
   ];
 
-  const financeCourses = [
-    {
-      name: "Economic Analysis of Capital Investments",
-      topics: "Net Present Value (NPV), Internal Rate of Return (IRR), Equivalent Uniform Befefit/Cost, Taxes, Inflation, Risk",
-      date: "FALL 2023"
-    },
-    {
-      name: "Machine Learning for Finance",
-      topics: "Linear & Non-Linear Regression, Ensemble Algorithms, Neural Networks (RNN, LSTM), NLP, Sentiment Analysis, Time-Series Forecasting",
-      date: "FALL 2025"
-    },
-    {
-      name: "Investments",
-      topics: "Portfolio Theory, Asset Pricing Models (CAPM & APT), Diversification, Efficient Market Hypothesis, Behavioral Finance",
-      date: "FALL 2024"
-    },
-    {
-      name: "Financial Derivatives",
-      topics: "Options, Futures, Forwards, Swaps, Hedging Strategies, Pricing Models (Black-Scholes, Binomial Tree), Greeks",
-      date: "SPRING 2024"
-    },
-    {
-      name: "Buisness Economics",
-      topics: "Microeconomics, Market Structures, Pricing Strategies, Game Theory, Market Failures, Externalities, Buisness Cycles",
-      date: "SPRING 2025"
-    },
-    {
-      name: "Buisness Statistics",
-      topics: "Modeling, Hypothesis Testing, Regression Analysis, Time Series Analysis, Forecasting, Decision Trees, ANOVA",
-      date: "SPRING 2025"
-    },
-    {
-      name: "Principles of Economics",
-      topics: "Macroeconomics, Microeconomics, Supply and Demand, Fiscal and Monetary Policy, Economic Indicators",
-      date: "FALL 2022"
-    },
-    {
-      name: "Financial and Managerial Accounting",
-      topics: "GAAP, IFRS, Financial Statements (Balance Sheet, Income Statement, Cash Flow Statement), Accrual & Cash Accounting, Cost Systems",
-      date: "SPRING 2023"
-    },
-    {
-      name: "Rise of Global Economy",
-      topics: "Colonialism, Mercantilism, Industrial Revolution, Bretton Woods System, Globalization, Trade Wars, Emerging Markets",
-      date: "SPRING 2022"
-    },
-  ];
-
   const [linkedInHover, setLinkedInHover] = React.useState(false);
   const [githubHover, setGithubHover] = React.useState(false);
 
@@ -396,20 +287,19 @@ export default function Home() {
           <h1 {...stylex.props(styles.name)}>Vishant Tyagi</h1>
           <h2 {...stylex.props(styles.title)}>
             <div {...stylex.props(styles.expertiseBadges)}>
-              <span {...stylex.props(styles.expertiseBadge)}>IT</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Data Science</span>
-              <span {...stylex.props(styles.expertiseBadge)}>AI & ML</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Big Data</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Fintech</span>
-              <span {...stylex.props(styles.expertiseBadge)}>Cloud Architecture</span>
+          <span {...stylex.props(styles.expertiseBadge)}>Aerospace Engineering</span>
+          <span {...stylex.props(styles.expertiseBadge)}>Mechanical Design</span>
+          <span {...stylex.props(styles.expertiseBadge)}>Structures & Vibrations</span>
+          <span {...stylex.props(styles.expertiseBadge)}>Manufacturing</span>
+          <span {...stylex.props(styles.expertiseBadge)}>Controls & Simulation</span>
             </div>
           </h2>
           <div {...stylex.props(styles.contact)}>
             <span {...stylex.props(styles.contactItem)}>
-              📧 nicksimpkins@icloud.com, nsimpkins@hawk.iit.edu
+              📧 vishantt2002@gmail.com
             </span>
             <span {...stylex.props(styles.contactItem)}>
-              📱 (603)-848-6787
+              📱 (847) 800-6257
             </span>
             <span {...stylex.props(styles.contactItem)}>
               📍 Chicago, IL
@@ -418,7 +308,7 @@ export default function Home() {
           
           <div {...stylex.props(styles.socialLinks)}>
             <a 
-              href="https://www.linkedin.com/in/nicholas-simpkins/" 
+              href="https://www.linkedin.com/in/vishant-tyagi"
               target="_blank" 
               rel="noopener noreferrer"
               {...stylex.props(styles.socialIcon)}
@@ -441,7 +331,7 @@ export default function Home() {
               </svg>
             </a>
             <a 
-              href="https://github.com/nicksimpkins" 
+              href="https://github.com/vishantt2002" 
               target="_blank" 
               rel="noopener noreferrer"
               {...stylex.props(styles.socialIcon)}
@@ -470,18 +360,10 @@ export default function Home() {
           <h2 {...stylex.props(styles.sectionTitle)}>Education</h2>
           <div {...stylex.props(styles.gridLayout)}>
             <EducationItem
-              degree="B.A.C. Information Technology & Management"
+              degree="B.S Aerospace Engineering"
               institution="Illinois Institute of Technology"
-              dateRange="AUGUST 2021 - MAY 2026"
+              dateRange="AUGUST 2020 - MAY 2024"
               location="CHICAGO, IL"
-              minor="Minor in Finance"
-            />
-            <EducationItem
-              degree="M.A.S. Information Technology & Management"
-              institution="Illinois Institute of Technology"
-              dateRange="JANUARY 2023 - MAY 2026"
-              location="CHICAGO, IL"
-              minor="Specialization in Applied Data Science & AI"
             />
           </div>
         </section>
@@ -522,39 +404,19 @@ export default function Home() {
             technologies="JavaScript, TypeScript"
             link="https://visionkernel.co/visioncharts"
           />
-          <ProjectItem
-            name="Centerspoke"
-            description="Open source CLI with tools such as file conversion, with main functionality for interacting with cloud database systems."
-            technologies="Python, SQL, AWS (RDS), MySQL"
-            link="https://github.com/visionkernel/centerspoke"
-          />
-          <ProjectItem
-            name="Evoweb"
-            description="An easily containerized web app that generates dynamic web content using client-side LLMs with reference from JSON data"
-            technologies="Svelte, JavaScript, LLMs (Phi-2, Llama-2-7B)"
-            link="https://github.com/nicksimpkins/evoweb"
-          />
-          <ProjectItem
-            name="Soteria"
-            description="University backed project aimed at creating a dynamic and intelligent safety system for buildings."
-            technologies="Python, Raspberry Pi, Ubuntu, Arduino, Breadboards, Sensors, LEDs"
-            link="https://www.facebook.com/100064282262283/about/?_rdr"
-          />  
+
+  
+
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Skills</h2>
-          <SkillCategory title="Languages" skills={languageSkills} />
-          <SkillCategory title="Frameworks & Libraries" skills={frameworkSkills} />
-          <SkillCategory title="Cloud Services" skills={cloudSkills} />
-          <SkillCategory title="Databases" skills={databaseSkills} />
-          <SkillCategory title="Development Tools" skills={devServiceSkills} />
+          <SkillCategory title="Languages" skills={MechanicalSkills} />
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Courses</h2>
-          <CourseCategory title="Technology Courses" courses={techCourses} />
-          <CourseCategory title="Finance Courses" courses={financeCourses} />
+          <CourseCategory title="Technology Courses" courses={EngineeringCourses} />
         </section>
 
         <section {...stylex.props(styles.section)}>
