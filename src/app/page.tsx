@@ -196,84 +196,48 @@ export default function Home() {
 
   const EngineeringCourses= [
     {
-      name: "Aerodynamics",
+      name: "Aerodynamics of Aerospace Vehicles",
       topics: "Fluid properties and continuum flow assumptions,Inviscid flow theory and potential flow modeling,Lift, drag, and pitching moment generation,Subsonic and transonic aerodynamic characteristics",
-      date: "SPRING 2025"
     },
     {
-      name: "Cloud Computing Technologies",
-      topics: "AWS, Terraform, Vagrant, Virtualization",
-      date: "FALL 2023"
+      name: "Aerospace Propulsion",
+      topics: "Analysis and performance of various jet and rocket propulsive devices. Foundations of propulsion theory. Design and analysis of inlets, compressors, combustion chambers, and other elements of propulsive devices.",
+      
     },
     {
-      name: "Data Mining & Machine Learning",
-      topics: "R, Python, Jupyter, Web Scraping, Preprocessing, Classifications",
-      date: "FALL 2024"
+      name: "Computational Mechanics",
+      topics: "Use of numerical methods to solve engineering problems in solid mechanics, fluid mechanics and heat transfer",
+      
     },
     {
-      name: "Programming for Data Analytics",
-      topics: "R, Python, Data Visualization, Data Analysis, Pandas, NumPy, Scikit-learn",
-      date: "SPRING 2024"
+      name: "Advanced Machining for Manufacturing I & II ",
+      topics: "functional capabilities of a 5-axis CNC machining center, and the processes involved in taking a machined part from prototype to production using Solidworks and MasterCAM.",
+      
     },
     {
-      name: "Advanced Topics in Data Management",
-      topics: "SQL, Normalization, Data Warehousing, ETL Processes, Data Lakes, Data Governance",
-      date: "FALL 2024"
+      name: "Aerospace Materials",
+      topics: "Mechanical behavior and microstructural characterization of aerospace materials including advanced metal alloys, polymers, ceramics, and composites.",
+      
     },
     {
-      name: "Database Security",
-      topics: "SQL Injection, Access Control, Encryption, Backup and Recovery, Database Auditing, NIST",
-      date: "FALL 2024"
+      name: "Systems Analysis and Control",
+      topics: "Mathematical modeling of dynamic systems; linearization. Laplace transform; transfer functions; transient and steady-state response. Feedback control of single-input, single-output systems. Routh stability criterion. Root-locus method for control system design. Frequency-response methods; Bode plots; Nyquist stability criterion.",
+      
     },
     {
-      name: "Web Application Foundations",
-      topics: "HTML, CSS, JavaScript, Responsive Design, SEO, Human-Computer Interaction",
-      date: "SPRING 2024"
+      name: "Spacecraft Dynamics",
+      topics: "Orbital mechanics: two-body problem, Kepler's equation, classical orbital elements, introduction to orbit perturbations. Mission analysis: orbital maneuvers, earth orbiting and interplanetary missions. Spacecraft attitude dynamics: three-dimensional kinematics of rigid bodies, Euler angles, equations of motion.",
+      
     },
     {
-      name: "Big Data Infrastructure",
-      topics: "Python, Scala, Spark, Minio, Jupyter",
-      date: "SPRING 2025"
+      name: "Aircraft Design",
+      topics: "Aircraft design including aerodynamic, structural, and power plant characteristics to achieve performance goals. Focus on applications ranging from commercial to military and from manpowered to high-speed to long-duration aircraft. ",
+      
     },
     {
-      name: "Cybersecurity Technologies",
-      topics: "Encryption, Network Security, Firewalls, Intrusion Detection, Incident Response, Risk Management",
-      date: "FALL 2023"
-    },
-    {
-      name: "System Integration",
-      topics: "Project Management, React, SQL, Terraform, Vagrant, Vault, OAuth, Proxmox",
-      date: "SPRING 2025"
-    },
-    {
-      name: "Open-Source Programming",
-      topics: "Python, I/O, Data Analysis, Pandas, NumPy, Seaborn, Object-Oriented Programming",
-      date: "SPRING 2024"
-    },
-    {
-      name: "Undergraduate Research",
-      topics: "Cybersecurity, Raspberry Pi, Ubuntu, Tornado, NMAP",
-      date: "FALL 2024"
-    },
-    {
-      name: "Data Warehousing",
-      topics: "ETL Processes, Data Modeling, Pentaho DI, OLAP, Data Lakes, SQL",
-      date: "FALL 2025"
-    },
-    {
-      name: "Service-Oriented Architectures",
-      topics: "RESTful APIs, SOAP, Microservices, JSON, XML, SDMX, API Security, Postman",
-      date: "FALL 2025"
-    },
-    {
-      name: "Intermediate Software Development",
-      topics: "Java, JDBC, Object-Oriented Programming, Design Patterns",
-      date: "SPRING 2023"
-    },
-    {
-      name: "Project Management for ITM",
-      topics: "Project Management, Agile Methodologies, Scrum, Waterfall Model, Risk Management, Stakeholder Analysis, Scope Management",
-      date: "FALL 2023"
+      name: "Computational Fluid Dynamics",
+      topics: "Classification of partial differential equations. Finite-difference methods. Numerical solution techniques including direct, iterative, and multigrid methods for general elliptic and parabolic differential equations.",
+      
     },
   ];
 
@@ -371,22 +335,22 @@ export default function Home() {
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Experience</h2>
           <ExperienceItem
-            position="IT & Security Consultant"
-            company="Freelance"
-            dateRange="JUNE 2024 - PRESENT"
-            location="VARIOUS"
+            position="Mechanical Engineer"
+            company="F&S Engraving"
+            dateRange="March 2025 - December 2025"
+            location="Mt. Prospect, IL"
           />
           <ExperienceItem
-            position="Bank Teller (Seasonal)"
-            company="Merrimack County Savings Bank"
-            dateRange="JUNE 2023 - AUGUST 2023"
-            location="CONCORD, NH"
+            position="Research Assistant"
+            company="Carnations Laborotory"
+            dateRange="Febraury 2024 - AUGUST 2024"
+            location="Chicago, IL"
           />
           <ExperienceItem
-            position="Bank Teller (Seasonal)"
-            company="Franklin Savings Bank"
-            dateRange="MAY 2022 - AUGUST 2022"
-            location="FRANKLIN, NH"
+            position="Electrical Engineering Intern"
+            company="Berg Engineering Consultants"
+            dateRange="June 2023 - October 2023"
+            location="Schaumburg, IL"
           />
         </section>
 
@@ -427,18 +391,16 @@ export default function Home() {
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Achievements & Involvements</h2>
           <div {...stylex.props(styles.gridLayout)}>
-            <div {...stylex.props(styles.certItem)}>Illinois Tech College of Computing Dean&apos;s List</div>
-            <div {...stylex.props(styles.certItem)}>New Hampshire Scholar</div>
-            <div {...stylex.props(styles.certItem)}>IIT ITM Organization</div>
-            <div {...stylex.props(styles.certItem)}>Stuart School of Business Investment Club</div>
-            <div {...stylex.props(styles.certItem)}>CME Group University Trading Challenge</div>
+            <div {...stylex.props(styles.certItem)}>Illinois Tech Rocketry</div>
+            <div {...stylex.props(styles.certItem)}>IIT Motorsports</div>
+            <div {...stylex.props(styles.certItem)}>IIT Propulsion Club</div>
           </div>
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Interests & Expertise</h2>
           <p {...stylex.props(styles.interests)}>
-            I focus on the intersection of technology and finance, working with large datasets for machine learning and statistical analysis. Recently, I've explored LLMs and AI image generation technologies, from lightweight models like Phi-2 to more robust systems like Deepseek R-1. I have extensive experience with cloud services, particularly Google Cloud and AWS, developing the backend infrastructure for my VisionKernel startup. My expertise includes API engineering for financial data, working with RESTful APIs and GraphQL, and handling various data formats including JSON, XML, and SDMX.
+            Mechanical and manufacturing engineering with a focus on application-driven design and system implementation. Experienced in translating customer requirements into technically sound, manufacturable solutions while supporting products through design, validation, and deployment.
           </p>
         </section>
         
