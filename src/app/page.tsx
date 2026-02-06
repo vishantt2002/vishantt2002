@@ -181,18 +181,19 @@ const styles = stylex.create({
 });
 
 export default function Home() {
-  const MechanicalSkills = [
-    { name: 'HTML & CSS', level: 5 },
-    { name: 'Python', level: 4 },
-    { name: 'JavaScript', level: 4 },
-    { name: 'PHP', level: 3 },
-    { name: 'SQL', level: 5 },
-    { name: 'R', level: 4 },
-    { name: 'Scala', level: 3 },
-    { name: 'Java', level: 3 },
+  const  EngineeringandAnalysis = [
+    { name: 'ANSYS', level: 3 },
+    { name: 'MasterCAM', level: 3.5 },
+    { name: '3D Printing (TPU & PLA)', level: 5 },
   ];
 
-
+  const  CAD = [
+    { name: 'Solidworks', level: 4 },
+    { name: 'Creo', level: 3 },
+    { name: 'AutoCAD', level: 4 },
+    { name: 'Revit', level: 5 },
+    { name: 'Type-Edit', level: 5 },
+  ];
 
   const EngineeringCourses= [
     {
@@ -355,38 +356,31 @@ export default function Home() {
         </section>
 
         <section {...stylex.props(styles.section)}>
-          <h2 {...stylex.props(styles.sectionTitle)}>Projects & Startups</h2>
+          <h2 {...stylex.props(styles.sectionTitle)}>Projects</h2>
           <ProjectItem
             name="VisionKernel"
             description="Time-series data management and analysis platform for the financial industry."
             technologies="React, Python, SQL, AWS (RDS, EC2), Google Cloud (Cloud Run, Cloud Run functions), Firebase"
             link="https://visionkernel.co"
           />
-          <ProjectItem
-            name="VisionCharts"
-            description="Modern and high performance open source charting library for financial data visualization and analysis."
-            technologies="JavaScript, TypeScript"
-            link="https://visionkernel.co/visioncharts"
-          />
-
   
 
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Skills</h2>
-          <SkillCategory title="Languages" skills={MechanicalSkills} />
+          <SkillCategory title="Mechanical Skills" skills={EngineeringandAnalysis} />
+        </section>
+
+        <section {...stylex.props(styles.section)}>
+          <SkillCategory title="Computer Aided Design" skills={CAD} />
         </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Courses</h2>
-          <CourseCategory title="Technology Courses" courses={EngineeringCourses} />
+          <CourseCategory title="Engineering Courses" courses={EngineeringCourses} />
         </section>
 
-        <section {...stylex.props(styles.section)}>
-          <h2 {...stylex.props(styles.sectionTitle)}>Certifications</h2>
-          <div {...stylex.props(styles.certItem)}>FINRA SIE (Securities Industry Essentials)</div>
-        </section>
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Achievements & Involvements</h2>
