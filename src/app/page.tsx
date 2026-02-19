@@ -359,12 +359,12 @@ export default function Home() {
           <h2 {...stylex.props(styles.sectionTitle)}>Projects</h2>
           <ProjectItem
             name="IMU Research"
-            description="Time-series data management and analysis platform for the financial industry."
+            description=" data management and analysis platform for the financial industry."
             technologies="React, Python, SQL, AWS (RDS, EC2), Google Cloud (Cloud Run, Cloud Run functions), Firebase"
             link="https://docs.google.com/presentation/d/1A20LlEzCCYmjN2mBvLB4oM8fBbZ7nbNm/edit?usp=sharing&ouid=100854208262901004837&rtpof=true&sd=true"
+            embedSrc="https://docs.google.com/presentation/d/1A20LlEzCCYmjN2mBvLB4oM8fBbZ7nbNm/edit?usp=sharing&ouid=100854208262901004837&rtpof=true&sd=true"
+            embedHeight={450}
           />
-  
-
         </section>
 
         <section {...stylex.props(styles.section)}>

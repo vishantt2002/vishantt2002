@@ -41,6 +41,17 @@ const styles = stylex.create({
       textDecoration: 'underline',
     },
   },
+  embedWrapper: {
+    marginTop: tokens.spacingMd,
+    borderRadius: tokens.borderRadius,
+    overflow: 'hidden',
+    border: `1px solid ${tokens.borderColor}`,
+  },
+  iframe: {
+    display: 'block',
+    width: '100%',
+    border: 'none',
+  },
 });
 
 interface ProjectItemProps {
@@ -48,9 +59,11 @@ interface ProjectItemProps {
   description: string;
   technologies: string;
   link?: string;
+  embedSrc?: string;
+  embedHeight?: number;
 }
 
-export default function ProjectItem({ name, description, technologies, link }: ProjectItemProps) {
+export default function ProjectItem({ name, description, technologies, link, embedSrc, embedHeight = 400 }: ProjectItemProps) {
   return (
     <div {...stylex.props(styles.project)}>
       <div {...stylex.props(styles.name)}>
@@ -64,6 +77,16 @@ export default function ProjectItem({ name, description, technologies, link }: P
       </div>
       <div {...stylex.props(styles.description)}>{description}</div>
       <div {...stylex.props(styles.tech)}>Technologies: {technologies}</div>
+      {embedSrc && (
+        <div {...stylex.props(styles.embedWrapper)}>
+          <iframe
+            src={embedSrc}
+            height={embedHeight}
+            {...stylex.props(styles.iframe)}
+            allowFullScreen
+          />
+        </div>
+      )}
     </div>
   );
 }
