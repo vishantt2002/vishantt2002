@@ -369,11 +369,11 @@ export default function Home() {
 
         <section {...stylex.props(styles.section)}>
           <h2 {...stylex.props(styles.sectionTitle)}>Skills</h2>
-          <SkillCategory title="Mechanical Skills" skills={EngineeringandAnalysis} />
+          <SkillCategory title="Computer Aided Design" skills={CAD} />
         </section>
 
         <section {...stylex.props(styles.section)}>
-          <SkillCategory title="Computer Aided Design" skills={CAD} />
+          <SkillCategory title="Mechanical Skills" skills={EngineeringandAnalysis} />
         </section>
 
         <section {...stylex.props(styles.section)}>
