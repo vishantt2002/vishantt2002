@@ -327,7 +327,7 @@ export default function Home() {
             <EducationItem
               degree="B.S Aerospace Engineering"
               institution="Illinois Institute of Technology"
-              dateRange="AUGUST 2020 - MAY 2024"
+              dateRange="AUGUST 2020 - December 2024"
               location="CHICAGO, IL"
             />
           </div>
@@ -359,8 +359,11 @@ export default function Home() {
           <h2 {...stylex.props(styles.sectionTitle)}>Projects</h2>
           <ProjectItem
             name="IMU Research"
-            description=" data management and analysis platform for the financial industry."
-            technologies="React, Python, SQL, AWS (RDS, EC2), Google Cloud (Cloud Run, Cloud Run functions), Firebase"
+            description=" Designed and developed a vibration isolation system to reduce engine- and road-induced noise in an Inertial Measurement Unit (IMU) used for GNSS spoofing detection. Excess vibrations (notably 12–22 Hz) were saturating IMU signals and degrading positioning accuracy.
+
+            The project involved analyzing vibration spectra, modeling spring-mass-damper systems, designing and fabricating multiple physical prototypes (including a custom Compact Wire Rope Isolator), and validating performance through shaker table and real-vehicle testing."
+            Hardware and Instrumentation="SBG Systems Ellipse 2 IMU, Septentrio AsteRx-i3 GNSS/INS receiver, MB Dynamics Vibration Test System (shaker table), Custom-built Compact Wire Rope Isolators (CWRI)"
+            Engineering And Analysis="Vibration analysis (PSD, FFT, standard deviation, transmissibility),Natural frequency modeling (1-DoF system dynamics),Spring-mass-damper system design, Frequency-domain signal analysis"
             link="https://docs.google.com/presentation/d/1A20LlEzCCYmjN2mBvLB4oM8fBbZ7nbNm/edit?usp=sharing&ouid=100854208262901004837&rtpof=true&sd=true"
             embedSrc="https://docs.google.com/presentation/d/1A20LlEzCCYmjN2mBvLB4oM8fBbZ7nbNm/preview"
             embedHeight={450}
